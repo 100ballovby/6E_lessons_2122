@@ -2,6 +2,7 @@ import pygame as pg
 
 # настроим окошко программы
 screen = pg.display.set_mode((640, 480))  # размер окна программы 640x480 пикселей
+pg.display.set_caption('Моя первая игра на PyGame')  # указываю название окна программы
 clock = pg.time.Clock()  # отвечает за сменяемость кадров
 finished = False  # флаг, который отвечает за работу игры
 
